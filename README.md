@@ -34,8 +34,6 @@
 ### Purpose of the Application
 
 The application is designed to simulate the operations of an airport, including managing flights, gates, and runways. 
-It provides a virtual environment to observe and control the movement of arriving and departing flights within the 
-airport.
 
 ### Design Patterns Used
 
@@ -168,8 +166,6 @@ The Observer Pattern is used to manage and dispatch events within the applicatio
 resource allocation.
 - Observer Pattern: Facilitates communication and coordination among various components of the airport simulation,
 allowing them to react to flight-related events.
-
-Certainly, here's an updated section for what can be added to your application:
 
 ## 6. What Can Be Added
 
