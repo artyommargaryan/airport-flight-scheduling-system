@@ -23,7 +23,10 @@
 5. **Design Patterns Used**
     - List of Design Patterns
     - Explanation and Usage
-
+   
+6. **What can be added**
+   - Reading input from file
+   - Improve flights handling
 ---
 
 ## 1. Introduction
@@ -165,3 +168,24 @@ The Observer Pattern is used to manage and dispatch events within the applicatio
 resource allocation.
 - Observer Pattern: Facilitates communication and coordination among various components of the airport simulation,
 allowing them to react to flight-related events.
+
+Certainly, here's an updated section for what can be added to your application:
+
+## 6. What Can Be Added
+
+To enhance and extend the functionality of your airport simulation application, consider the following possible improvements:
+
+#### Reading Input from File
+
+Implement the ability to read flight data from an external file. This would allow to load flight information from 
+various sources, such as text files or databases, and introduce a more dynamic and data-driven aspect to the simulation.
+
+#### Improved Flight Handling
+
+Enhance the flight handling logic to incorporate more realistic features and scenarios. This could include factors such as:
+
+- Different types of aircraft with varying passenger capacities.
+- Advanced scheduling algorithms for flight arrivals and departures.
+- Handling flight delays and cancellations.
+
+These improvements can make airport simulation more sophisticated and closer to real-world airport operations.
