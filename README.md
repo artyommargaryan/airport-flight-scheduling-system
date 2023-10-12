@@ -169,7 +169,7 @@ allowing them to react to flight-related events.
 
 ## 6. What Can Be Added
 
-To enhance and extend the functionality of your airport simulation application, consider the following possible improvements:
+To enhance and extend the functionality of airport simulation application, consider the following possible improvements:
 
 #### Reading Input from File
 
