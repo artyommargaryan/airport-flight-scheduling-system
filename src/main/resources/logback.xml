@@ -1,0 +1,16 @@
+<!-- logback.xml -->
+<configuration>
+    <!-- Define an appender for file output -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>src/main/resources/application.log</file> <!-- Log file name -->
+        <append>true</append>       <!-- Append to an existing log file (if it exists) -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %thread - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Define a logger for the root package -->
+    <root level="DEBUG">
+        <appender-ref ref="FILE" /> <!-- Reference the FILE appender -->
+    </root>
+</configuration>
